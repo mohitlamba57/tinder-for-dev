@@ -1,0 +1,21 @@
+{
+  "name": "banckend",
+  "version": "1.0.0",
+  "description": "tinder for devs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "backed",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Mohit Lamba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
